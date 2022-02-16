@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C17FDD0B27BC70FF000590A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD0A27BC70FF000590A4 /* AppDelegate.swift */; };
-		C17FDD0D27BC70FF000590A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD0C27BC70FF000590A4 /* SceneDelegate.swift */; };
-		C17FDD0F27BC70FF000590A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD0E27BC70FF000590A4 /* ViewController.swift */; };
-		C17FDD1227BC70FF000590A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17FDD1027BC70FF000590A4 /* Main.storyboard */; };
-		C17FDD1427BC7100000590A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17FDD1327BC7100000590A4 /* Assets.xcassets */; };
-		C17FDD1727BC7100000590A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17FDD1527BC7100000590A4 /* LaunchScreen.storyboard */; };
-		C17FDD1F27BC7200000590A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD1E27BC7200000590A4 /* TableViewCell.swift */; };
+		C17FDD4D27BC824D000590A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD4C27BC824D000590A4 /* AppDelegate.swift */; };
+		C17FDD4F27BC824D000590A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD4E27BC824D000590A4 /* SceneDelegate.swift */; };
+		C17FDD5127BC824D000590A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FDD5027BC824D000590A4 /* ViewController.swift */; };
+		C17FDD5427BC824D000590A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17FDD5227BC824D000590A4 /* Main.storyboard */; };
+		C17FDD5627BC824F000590A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17FDD5527BC824F000590A4 /* Assets.xcassets */; };
+		C17FDD5927BC824F000590A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17FDD5727BC824F000590A4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C17FDD0727BC70FF000590A4 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C17FDD0A27BC70FF000590A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C17FDD0C27BC70FF000590A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C17FDD0E27BC70FF000590A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C17FDD1127BC70FF000590A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C17FDD1327BC7100000590A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C17FDD1627BC7100000590A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C17FDD1827BC7100000590A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C17FDD1E27BC7200000590A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C17FDD4927BC824D000590A4 /* Homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17FDD4C27BC824D000590A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C17FDD4E27BC824D000590A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C17FDD5027BC824D000590A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C17FDD5327BC824D000590A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C17FDD5527BC824F000590A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C17FDD5827BC824F000590A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C17FDD5A27BC824F000590A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C17FDD0427BC70FF000590A4 /* Frameworks */ = {
+		C17FDD4627BC824D000590A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C17FDCFE27BC70FF000590A4 = {
+		C17FDD4027BC824D000590A4 = {
 			isa = PBXGroup;
 			children = (
-				C17FDD0927BC70FF000590A4 /* FoodTracker */,
-				C17FDD0827BC70FF000590A4 /* Products */,
+				C17FDD4B27BC824D000590A4 /* Homework3 */,
+				C17FDD4A27BC824D000590A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C17FDD0827BC70FF000590A4 /* Products */ = {
+		C17FDD4A27BC824D000590A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C17FDD0727BC70FF000590A4 /* FoodTracker.app */,
+				C17FDD4927BC824D000590A4 /* Homework3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C17FDD0927BC70FF000590A4 /* FoodTracker */ = {
+		C17FDD4B27BC824D000590A4 /* Homework3 */ = {
 			isa = PBXGroup;
 			children = (
-				C17FDD0A27BC70FF000590A4 /* AppDelegate.swift */,
-				C17FDD0C27BC70FF000590A4 /* SceneDelegate.swift */,
-				C17FDD0E27BC70FF000590A4 /* ViewController.swift */,
-				C17FDD1E27BC7200000590A4 /* TableViewCell.swift */,
-				C17FDD1027BC70FF000590A4 /* Main.storyboard */,
-				C17FDD1327BC7100000590A4 /* Assets.xcassets */,
-				C17FDD1527BC7100000590A4 /* LaunchScreen.storyboard */,
-				C17FDD1827BC7100000590A4 /* Info.plist */,
+				C17FDD4C27BC824D000590A4 /* AppDelegate.swift */,
+				C17FDD4E27BC824D000590A4 /* SceneDelegate.swift */,
+				C17FDD5027BC824D000590A4 /* ViewController.swift */,
+				C17FDD5227BC824D000590A4 /* Main.storyboard */,
+				C17FDD5527BC824F000590A4 /* Assets.xcassets */,
+				C17FDD5727BC824F000590A4 /* LaunchScreen.storyboard */,
+				C17FDD5A27BC824F000590A4 /* Info.plist */,
 			);
-			path = FoodTracker;
+			path = Homework3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C17FDD0627BC70FF000590A4 /* FoodTracker */ = {
+		C17FDD4827BC824D000590A4 /* Homework3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C17FDD1B27BC7100000590A4 /* Build configuration list for PBXNativeTarget "FoodTracker" */;
+			buildConfigurationList = C17FDD5D27BC824F000590A4 /* Build configuration list for PBXNativeTarget "Homework3" */;
 			buildPhases = (
-				C17FDD0327BC70FF000590A4 /* Sources */,
-				C17FDD0427BC70FF000590A4 /* Frameworks */,
-				C17FDD0527BC70FF000590A4 /* Resources */,
+				C17FDD4527BC824D000590A4 /* Sources */,
+				C17FDD4627BC824D000590A4 /* Frameworks */,
+				C17FDD4727BC824D000590A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FoodTracker;
-			productName = FoodTracker;
-			productReference = C17FDD0727BC70FF000590A4 /* FoodTracker.app */;
+			name = Homework3;
+			productName = Homework3;
+			productReference = C17FDD4927BC824D000590A4 /* Homework3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C17FDCFF27BC70FF000590A4 /* Project object */ = {
+		C17FDD4127BC824D000590A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					C17FDD0627BC70FF000590A4 = {
+					C17FDD4827BC824D000590A4 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = C17FDD0227BC70FF000590A4 /* Build configuration list for PBXProject "FoodTracker" */;
+			buildConfigurationList = C17FDD4427BC824D000590A4 /* Build configuration list for PBXProject "Homework3" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = C17FDCFE27BC70FF000590A4;
-			productRefGroup = C17FDD0827BC70FF000590A4 /* Products */;
+			mainGroup = C17FDD4027BC824D000590A4;
+			productRefGroup = C17FDD4A27BC824D000590A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C17FDD0627BC70FF000590A4 /* FoodTracker */,
+				C17FDD4827BC824D000590A4 /* Homework3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C17FDD0527BC70FF000590A4 /* Resources */ = {
+		C17FDD4727BC824D000590A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17FDD1727BC7100000590A4 /* LaunchScreen.storyboard in Resources */,
-				C17FDD1427BC7100000590A4 /* Assets.xcassets in Resources */,
-				C17FDD1227BC70FF000590A4 /* Main.storyboard in Resources */,
+				C17FDD5927BC824F000590A4 /* LaunchScreen.storyboard in Resources */,
+				C17FDD5627BC824F000590A4 /* Assets.xcassets in Resources */,
+				C17FDD5427BC824D000590A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C17FDD0327BC70FF000590A4 /* Sources */ = {
+		C17FDD4527BC824D000590A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17FDD0F27BC70FF000590A4 /* ViewController.swift in Sources */,
-				C17FDD1F27BC7200000590A4 /* TableViewCell.swift in Sources */,
-				C17FDD0B27BC70FF000590A4 /* AppDelegate.swift in Sources */,
-				C17FDD0D27BC70FF000590A4 /* SceneDelegate.swift in Sources */,
+				C17FDD5127BC824D000590A4 /* ViewController.swift in Sources */,
+				C17FDD4D27BC824D000590A4 /* AppDelegate.swift in Sources */,
+				C17FDD4F27BC824D000590A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C17FDD1027BC70FF000590A4 /* Main.storyboard */ = {
+		C17FDD5227BC824D000590A4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C17FDD1127BC70FF000590A4 /* Base */,
+				C17FDD5327BC824D000590A4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C17FDD1527BC7100000590A4 /* LaunchScreen.storyboard */ = {
+		C17FDD5727BC824F000590A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C17FDD1627BC7100000590A4 /* Base */,
+				C17FDD5827BC824F000590A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C17FDD1927BC7100000590A4 /* Debug */ = {
+		C17FDD5B27BC824F000590A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		C17FDD1A27BC7100000590A4 /* Release */ = {
+		C17FDD5C27BC824F000590A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,7 +282,7 @@
 			};
 			name = Release;
 		};
-		C17FDD1C27BC7100000590A4 /* Debug */ = {
+		C17FDD5E27BC824F000590A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodTracker/Info.plist;
+				INFOPLIST_FILE = Homework3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.yanxuan.FoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.yanxuan.Homework3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		C17FDD1D27BC7100000590A4 /* Release */ = {
+		C17FDD5F27BC824F000590A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodTracker/Info.plist;
+				INFOPLIST_FILE = Homework3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.yanxuan.FoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.yanxuan.Homework3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C17FDD0227BC70FF000590A4 /* Build configuration list for PBXProject "FoodTracker" */ = {
+		C17FDD4427BC824D000590A4 /* Build configuration list for PBXProject "Homework3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C17FDD1927BC7100000590A4 /* Debug */,
-				C17FDD1A27BC7100000590A4 /* Release */,
+				C17FDD5B27BC824F000590A4 /* Debug */,
+				C17FDD5C27BC824F000590A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C17FDD1B27BC7100000590A4 /* Build configuration list for PBXNativeTarget "FoodTracker" */ = {
+		C17FDD5D27BC824F000590A4 /* Build configuration list for PBXNativeTarget "Homework3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C17FDD1C27BC7100000590A4 /* Debug */,
-				C17FDD1D27BC7100000590A4 /* Release */,
+				C17FDD5E27BC824F000590A4 /* Debug */,
+				C17FDD5F27BC824F000590A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C17FDCFF27BC70FF000590A4 /* Project object */;
+	rootObject = C17FDD4127BC824D000590A4 /* Project object */;
 }
