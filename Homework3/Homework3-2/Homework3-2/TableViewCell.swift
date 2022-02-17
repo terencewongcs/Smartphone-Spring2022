@@ -1,18 +1,14 @@
 //
 //  TableViewCell.swift
-//  TableViewXibFile
+//  Homework3-2
 //
-//  Created by Teri Wang on 2/14/22.
+//  Created by Teri Wang on 2/17/22.
 //
 
 import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var imgView: UIImageView!
-    
-    @IBOutlet weak var lblImage: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
