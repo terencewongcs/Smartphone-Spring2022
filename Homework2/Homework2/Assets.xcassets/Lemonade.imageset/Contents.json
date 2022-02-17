@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "hamburger.jpeg",
+      "filename" : "Lemonade.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "hamburger@2x.jpeg",
+      "filename" : "Lemonade@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "hamburger@3x.jpeg",
+      "filename" : "Lemonade@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

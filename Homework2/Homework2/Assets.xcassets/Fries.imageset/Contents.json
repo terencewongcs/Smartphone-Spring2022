@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Salad.jpeg",
+      "filename" : "Fries.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Salad@2x.jpeg",
+      "filename" : "Fries@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Salad@3x.jpeg",
+      "filename" : "Fries@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
