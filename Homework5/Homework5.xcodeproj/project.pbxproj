@@ -15,7 +15,7 @@
 		C105E8B927D09FB60025A5D6 /* APIKeyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C105E8B827D09FB60025A5D6 /* APIKeyFile.swift */; };
 		C105E8BB27D09FCE0025A5D6 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C105E8BA27D09FCE0025A5D6 /* URLConstants.swift */; };
 		C105E8BD27D09FE90025A5D6 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C105E8BC27D09FE90025A5D6 /* StockViewController.swift */; };
-		C105E8BF27D0A0FD0025A5D6 /* QuoteShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C105E8BE27D0A0FD0025A5D6 /* QuoteShort.swift */; };
+		C1F42E6827DA0FCE0048854B /* DiscountedCashFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F42E6727DA0FCE0048854B /* DiscountedCashFlow.swift */; };
 		E8C660092778B5EF7299C1C7 /* Pods_Homework5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43103489FA0E58AA5A69529A /* Pods_Homework5.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		C105E8B827D09FB60025A5D6 /* APIKeyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyFile.swift; sourceTree = "<group>"; };
 		C105E8BA27D09FCE0025A5D6 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		C105E8BC27D09FE90025A5D6 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
-		C105E8BE27D0A0FD0025A5D6 /* QuoteShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteShort.swift; sourceTree = "<group>"; };
+		C1F42E6727DA0FCE0048854B /* DiscountedCashFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountedCashFlow.swift; sourceTree = "<group>"; };
 		CCE9972085486AECFDC0E8FA /* Pods-Homework5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework5.debug.xcconfig"; path = "Target Support Files/Pods-Homework5/Pods-Homework5.debug.xcconfig"; sourceTree = "<group>"; };
 		DE17820ABECD2CDC7F039A35 /* Pods-Homework5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework5.release.xcconfig"; path = "Target Support Files/Pods-Homework5/Pods-Homework5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +93,7 @@
 		C105E8B427D09F6D0025A5D6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C105E8BE27D0A0FD0025A5D6 /* QuoteShort.swift */,
+				C1F42E6727DA0FCE0048854B /* DiscountedCashFlow.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C105E8BD27D09FE90025A5D6 /* StockViewController.swift in Sources */,
-				C105E8BF27D0A0FD0025A5D6 /* QuoteShort.swift in Sources */,
+				C1F42E6827DA0FCE0048854B /* DiscountedCashFlow.swift in Sources */,
 				C105E8BB27D09FCE0025A5D6 /* URLConstants.swift in Sources */,
 				C105E8A127D09E2C0025A5D6 /* AppDelegate.swift in Sources */,
 				C105E8B927D09FB60025A5D6 /* APIKeyFile.swift in Sources */,

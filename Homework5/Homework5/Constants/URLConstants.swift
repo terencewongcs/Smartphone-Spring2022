@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+let discountedCashFlowURL = "https://financialmodelingprep.com/api/v3/discounted-cash-flow/"
+
