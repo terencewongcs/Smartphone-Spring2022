@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				C1E9C1F62803522200D36E5C /* Model */,
-				C1E9C1F12803511B00D36E5C /* InitialControl */,
+				C1E9C1F12803511B00D36E5C /* InitialController */,
 				C1E9C1EC2803507A00D36E5C /* Utilities */,
 				C1E9C1D828034B1F00D36E5C /* AppDelegate.swift */,
 				C1E9C1DA28034B1F00D36E5C /* SceneDelegate.swift */,
@@ -119,7 +119,7 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		C1E9C1F12803511B00D36E5C /* InitialControl */ = {
+		C1E9C1F12803511B00D36E5C /* InitialController */ = {
 			isa = PBXGroup;
 			children = (
 				C1E9C1DE28034B1F00D36E5C /* Main.storyboard */,
@@ -128,7 +128,7 @@
 				C1E9C1F32803514B00D36E5C /* StockTableViewCell.xib */,
 				C1E9C1F92803529800D36E5C /* TableViewFile.swift */,
 			);
-			path = InitialControl;
+			path = InitialController;
 			sourceTree = "<group>";
 		};
 		C1E9C1F62803522200D36E5C /* Model */ = {
