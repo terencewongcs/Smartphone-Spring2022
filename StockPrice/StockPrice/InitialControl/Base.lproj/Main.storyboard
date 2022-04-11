@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K1G-gI-Dnl">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Stock Price-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StockPrice" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qer-4b-arb" userLabel="Whole View">
-                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <rect key="frame" x="0.0" y="88" width="428" height="804"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kl7-t9-hho" userLabel="Top View">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="282.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="268"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Company Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwO-V2-XFV">
                                                 <rect key="frame" x="50" y="40" width="328" height="37"/>
@@ -61,10 +61,10 @@
                                         <color key="backgroundColor" systemColor="systemMintColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGb-Tq-hTx" userLabel="Bottom View">
-                                        <rect key="frame" x="0.0" y="282.66666666666669" width="428" height="565.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="268" width="428" height="536"/>
                                         <subviews>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rSC-ng-eze">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="565.33333333333337"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="428" height="536"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StockTableViewCell" id="oFQ-ob-jMy">
@@ -113,15 +113,41 @@
                             <constraint firstItem="Qer-4b-arb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="y85-di-BC9"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Stock Price" id="akL-Up-x9V">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8O0-CK-UH0">
+                            <connections>
+                                <action selector="addStockAction:" destination="BYZ-38-t0r" id="UTT-2G-qsc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblCompanyName" destination="hwO-V2-XFV" id="bwx-Fc-O3i"/>
                         <outlet property="lblDayHigh" destination="Klc-sP-Tlh" id="3d5-hv-nDe"/>
                         <outlet property="lblDayLow" destination="WgN-SZ-7Nv" id="02M-ha-7e0"/>
                         <outlet property="lblPrice" destination="KD7-3u-V8Y" id="vhg-HF-am3"/>
                         <outlet property="lblSymbol" destination="Zwu-F2-39B" id="MJI-xl-6uk"/>
+                        <outlet property="tblView" destination="rSC-ng-eze" id="0cL-fh-Gdx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.03738317757006" y="68.682505399568043"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rQB-kX-Wbh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K1G-gI-Dnl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AIp-Td-jCg">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="asd-2w-uti"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wVh-L3-lvr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.037383177570092" y="68.682505399568043"/>
         </scene>

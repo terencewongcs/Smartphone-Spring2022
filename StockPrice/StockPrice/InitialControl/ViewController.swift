@@ -7,9 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController,SendStockDelegate {
+class ViewController: UIViewController,SendStockDelegate, SendDataBackDelegate {
     var companiesModel: [StockModel]?
-    
+    var flag=0;
     
     @IBOutlet weak var lblCompanyName: UILabel!
     @IBOutlet weak var lblSymbol: UILabel!
@@ -17,10 +17,15 @@ class ViewController: UIViewController,SendStockDelegate {
     @IBOutlet weak var lblDayHigh: UILabel!
     @IBOutlet weak var lblDayLow: UILabel!
     
+    
+    @IBOutlet weak var tblView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         companiesModel = initializeCompanies()
+        
+        print("new")
     }
             
     func initializeCompanies() -> [StockModel]{
@@ -59,6 +64,46 @@ class ViewController: UIViewController,SendStockDelegate {
         lblPrice.text = "Price: \(currentStockModel.price) $"
         lblDayLow.text = "Day Low \(currentStockModel.dayLow) $"
         lblDayHigh.text = "Day High \(currentStockModel.dayHigh) $"
+    }
+
+    @IBAction func addStockAction(_ sender: Any) {
+        var txtField : UITextField?
+        
+        let alertController = UIAlertController(title: "Add Stock", message: "", preferredStyle: .alert)
+        
+        let OKButton = UIAlertAction(title: "OK", style: .default) { action in
+            guard let symbol = txtField?.text else {
+                return
+            }
+                    
+            self.addStockToArr(str: symbol)
+        }
+        
+        let cancelButton = UIAlertAction(title: "Cancel", style: .cancel) { action in
+            
+        }
+        
+        alertController.addAction(OKButton)
+        alertController.addAction(cancelButton)
+        
+        alertController.addTextField { stockTextField in
+            stockTextField.placeholder = "Type Stock Symbol"
+            txtField = stockTextField
+            
+        }
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func addStockToArr(str: String) {
+        let currentURL = getStockURL(str)
+        getStockData(url: currentURL).done { currentStockModel in
+            self.companiesModel?.append(currentStockModel)
+            self.tblView.reloadData();
+        }
+        .catch { error in
+            print(error.localizedDescription)
+        }
     }
 
 }

@@ -29,7 +29,7 @@ func getStockData(url : String) -> Promise<StockModel>{
             // If I am here then I have got the data
             let stocks = JSON(response.data!).array
             guard let stock = stocks!.first else { return}
-            print(stock)
+            //print(stock)
             
             let quote = StockModel("","")
             quote.companyName = stock["name"].stringValue
